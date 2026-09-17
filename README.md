@@ -36,8 +36,8 @@ narrative color.
 
 - **`length_of_service_years` has to be validated first.** It's a raw continuous field on every
   accession, separation, and employment record — not a pre-binned bracket. Checked against FBI new
-  hires: 84.6% show exactly 0 years, 85.5% under a year. The remaining ~8-15% are lateral entries
-  carrying prior federal service credit, not a data error.
+  hires: 84.6% show exactly 0 years, 85.5% under a year. A further 8.0% show 5+ years of prior
+  service — lateral entries carrying prior federal credit, not a data error.
 - **Failure #1: an unfiltered screen is dominated by seasonal noise.** Forest Service, National
   Park Service, Census — workforces that hire and release people on a schedule every year — show
   >100% "annualized attrition" that's just normal seasonal cycling. ICE doesn't even crack the top
@@ -61,9 +61,10 @@ narrative color.
 
 ## Headline findings
 **FBI shows no rookie-attrition signal.** Under-1-year separations ran 0-5 a month straight
-through 2025-26, no shift after September. That month's 332-person spike was 75% DRP-flagged,
-average tenure at departure 21.8 years, 78% with 20+ years in — a buyout-driven exodus of senior
-agents, not new agents washing out.
+through 2025-26, no shift after September. That month's 332-person spike was 75% flagged as
+Deferred Resignation Program (DRP) exits — the 2025 federal buyout offer — with average tenure at
+departure 21.8 years, 78% with 20+ years in — a buyout-driven exodus of senior agents, not new
+agents washing out.
 
 **Across every other agency, exactly two combine real hiring volume with a genuinely worsened
 cohort-exit rate, post-Sep-2025 vs. the equal-length prior year: ICE (4.3%→17.5%, +13 points) and
