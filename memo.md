@@ -18,19 +18,20 @@ FBI headcount fell by 349 in the two months after September 2025. But under-1-ye
 Every agency subelement, every job series, hires and departures counted within the same window (Sep 2025-Jul 2026 vs. the equal-length prior year), departures matched to hire vintage. Sorted by the level, TSA looks alarming (~18%) but hasn't moved from its historical norm; Defense Commissary Agency's rate actually improved. Sorted by the **change** instead — the only defensible way to read this — exactly two agencies combine real hiring volume with a genuinely worsened rate: **ICE (+13 points, 4.3%→17.5%)** and **IRS (+8 points, 21.0%→28.9%)**. Nothing else clears both bars.
 
 ### 4. IRS: what's actually happening · *notebook §4*
-IRS has frozen hiring almost everywhere — Revenue Agents, Tax Examiners, clerical staff, IT all collapsed to near zero since September — **except Contact Representatives** (taxpayer-service call-center staff), which is 92% of all IRS hiring since then. Of the 1,108 Contact Reps hired since September, **333 (30.1%) have already left**, 88% of it a plain voluntary quit — not DRP, not a firing.
+IRS has frozen hiring almost everywhere — Revenue Agents, Tax Examiners, clerical staff, IT all collapsed to near zero since September — **except Contact Representatives** (taxpayer-service call-center staff, job series 0962), which is 92% of all IRS hiring since then. Of the 1,108 Contact Reps hired since September, **333 (30.1%) have already left**, 88% of it a plain voluntary quit — not DRP, not a firing.
 
-### 5. Is any of this actually unusual for this job? Two things are both true · *notebook §4*
-The rate is **not an all-time record** — 2021-22 hit a near-identical peak (30.2% overall exit, 14.0% gone within 2 months), plausibly pandemic-era labor-market churn. But looking at just the last three years, the share gone within 2 months has climbed sharply and steadily: **6.4% (2023-24) → 8.5% (2024-25) → 14.2% (2025-26)** — more than doubling in two years. Not a new record, but a real, recent acceleration, not noise. Separately, **hiring volume has collapsed to the lowest point since at least 2019** (1,108 hires, a sixth of the 2022-23 peak of 7,218).
+### 5. The headline: leaving faster, in a shrinking workforce, not being replaced · *notebook §4*
+IRS Contact Representatives — the phone-line taxpayer-service reps who answer IRS's main call center — are leaving faster, in a workforce that's been shrinking for years, and IRS isn't replacing them. None of those three is a record-breaker alone; what makes it worth flagging is that all three are true at the same time, right now:
 
-![How fast Contact Reps are leaving, by hiring window — not an all-time record (2021-22 hit the same peak), but a sharp recent climb (top). Is IRS replacing them? Net change in total headcount, month over month — 10 of the last 11 months a net loss (bottom).](figures/irs_0962_summary.png){width=6in}
+- **Leaving faster:** the share of new hires gone within 2 months has climbed for three straight years — **6.4% (2023-24) → 8.5% (2024-25) → 14.2% (2025-26)** — back up to the 2021-22 pandemic-era peak (14.0%), not a new record but a real, sustained acceleration.
+- **A shrinking workforce:** total headcount peaked at **25,221 (Dec 2024)** and has fallen **28% (7,076 people) to 18,145 by Jul 2026**.
+- **Not being replaced:** net headcount change has been negative in **10 of the last 11 months**.
+
+![IRS Contact Representatives (0962): how fast they're leaving, by hiring window (top); the size of the workforce over time (middle); and whether IRS is replacing departures at all, net headcount change month over month (bottom).](figures/irs_0962_summary.png){width=6in}
+
+One more angle on the same shrinkage: at the 2022 hiring peak, under-1-year employees were **32%** of the whole 0962 workforce — nearly a third brand new. Today that share is **3%**, the lowest in the series — mostly-fresh to almost entirely veteran, well before this window started.
 
 ![IRS Contact Representative (series 0962): hires and departures (top) vs. departures as a share of hires (bottom), by hiring window — 2025-26's bars are the smallest in the series, but the share lost still matches the 2021-22 peak.](figures/irs_0962_story.png){width=6in}
-
-### 6. Not being replaced — and it's been true for years, not just since September · *notebook §4*
-Total Contact Representative headcount peaked at **25,221 (Dec 2024)** and has fallen **28% (7,076 people) to 18,145 by Jul 2026**. More telling: the under-1-year share of that workforce has been declining since its **2022-23 peak of 32%**, and now sits at **3%**, the lowest in the series — a workforce that turned from mostly-fresh to almost entirely veteran years before this window started. The 30% exit rate is real and recently accelerating, but it's also happening inside a job that's been quietly shrinking for years, not a sudden hiring-standards story alone.
-
-![IRS Contact Representatives (0962): total headcount, monthly, 2019-2026 — peaked Dec 2024, down 28% since.](figures/irs_0962_headcount.png){width=6in}
 
 ---
 
