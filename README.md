@@ -47,7 +47,8 @@ prior year: ICE 4.3%→17.5%, IRS 21.0%→28.9%. TSA looks alarming (~18%) but h
 Commissary Agency's rate actually improved.
 
 **IRS's number is a Contact Representative story** — taxpayer-service call-center staff, job
-series 0962, 92% of all IRS hiring since September once every other role froze.
+series 0962, permanent appointments only (temp/seasonal excluded throughout), 92% of all IRS
+hiring since September once every other role froze.
 
 **The headline:** Contact Reps are leaving faster, in a shrinking workforce, and IRS isn't
 replacing them — three things true at once, none a record alone:
@@ -57,8 +58,8 @@ replacing them — three things true at once, none a record alone:
 - Headcount peaked at 25,221 (Dec 2024), down 28% to 18,145 (Jul 2026).
 - Net headcount change negative in 10 of the last 11 months.
 
-![IRS Contact Representatives: leaving faster, in a shrinking workforce, and not being replaced — quit-within-2-months rate by hiring window (top); total headcount over time (middle); net monthly headcount change (bottom).](figures/irs_0962_summary.png)
+![IRS Contact Representatives (permanent staff): leaving faster, in a shrinking workforce, and not being replaced — quit-within-2-months rate by hiring window (top); total permanent headcount over time (middle); net monthly headcount change (bottom).](figures/irs_0962_summary.png)
 
 Footnote: under-1-year employees were 32% of the 0962 workforce at the 2022 peak; today, 3%.
 
-![IRS Contact Representative (0962): hires and departures (top) and departures as a share of hires (bottom), by hiring window, 2019-2026](figures/irs_0962_story.png)
+![IRS Contact Representative (0962, permanent staff): hires and departures (top) and departures as a share of hires (bottom), by hiring window, 2019-2026](figures/irs_0962_story.png)

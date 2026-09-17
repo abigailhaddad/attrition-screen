@@ -47,11 +47,11 @@ None of these three is a record alone. Together, right now, they are:
 - **Shrinking:** headcount peaked at 25,221 (Dec 2024), down 28% to 18,145 (Jul 2026).
 - **Not replaced:** net headcount change negative 10 of the last 11 months.
 
-![IRS Contact Representatives: leaving faster, in a shrinking workforce, and not being replaced — quit-within-2-months rate by hiring window (top); total headcount over time (middle); net monthly headcount change (bottom).](figures/irs_0962_summary.png){width=6in}
+![IRS Contact Representatives (permanent staff): leaving faster, in a shrinking workforce, and not being replaced — quit-within-2-months rate by hiring window (top); total permanent headcount over time (middle); net monthly headcount change (bottom).](figures/irs_0962_summary.png){width=6in}
 
 Under-1-year employees were 32% of the workforce at the 2022 peak; today, 3%.
 
-![IRS Contact Representative (0962): hires and departures (top) vs. departures as a share of hires (bottom), by hiring window.](figures/irs_0962_story.png){width=6in}
+![IRS Contact Representative (0962, permanent staff): hires and departures (top) vs. departures as a share of hires (bottom), by hiring window.](figures/irs_0962_story.png){width=6in}
 
 ---
 
