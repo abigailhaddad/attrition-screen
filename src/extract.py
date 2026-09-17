@@ -29,6 +29,10 @@ What gets pulled, and why:
 - **irs_0962_*_hist**: IRS Contact Representatives (job series 0962) back to 2019 -- is the
   2025-26 cohort's exit rate actually unusual, or does this specific job always churn this
   fast?
+
+- **irs_0962_separations_alltenure**: same population, no tenure filter at all -- needed to
+  tell whether the *whole* workforce's departures (not just the recent-hire cohort) are
+  voluntary quits or something else, like a DRP wave among longer-tenured staff.
 """
 import re
 from pathlib import Path
@@ -148,6 +152,11 @@ def run():
          f"{IRS_0962} AND {PERM} AND {LOS2}", "irs_0962_separations_hist")
     pull(c, urls(fm, "employment", HIST_START), "snapshot_yyyymm",
          "length_of_service_years", f"{IRS_0962} AND {PERM}", "irs_0962_employment_hist")
+    # Same population, but NO tenure filter -- needed to see whether departures across the
+    # WHOLE workforce (not just recent hires) are voluntary or not, and whether a DRP wave
+    # among longer-tenured staff explains the headcount collapse better than organic quitting.
+    pull(c, urls(fm, "separations", HIST_START), "personnel_action_effective_date_yyyymm",
+         "separation_category, drp_indicator", f"{IRS_0962} AND {PERM}", "irs_0962_separations_alltenure")
 
 
 if __name__ == "__main__":

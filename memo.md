@@ -53,6 +53,15 @@ Under-1-year employees were 32% of the workforce at the 2022 peak; today, 3%.
 
 ![IRS Contact Representative (0962, permanent staff): hires and departures (top) vs. departures as a share of hires (bottom), by hiring window.](figures/irs_0962_story.png){width=6in}
 
+### 6. Two separate mechanisms, not one · *notebook §5*
+"Leaving faster" (above) is about recent hires only. The *whole* workforce's departures are a
+different story: September 2025 alone had 4,614 separations, 97% DRP-flagged — one buyout event,
+not a trend. Every other month, 2024-26, runs a steady 145-442 with almost no DRP flags. Confirmed:
+this wave doesn't contaminate the recent-hire quit-rate stat — everyone who left in September had
+an implied hire date before the tracked window.
+
+![All 0962 separations, any tenure — September 2025 is a single DRP-driven spike, not gradual acceleration.](figures/irs_0962_drp_isolation.png){width=6in}
+
 ---
 
 ### What the data can't say · *notebook §1, §4*
@@ -63,5 +72,8 @@ Under-1-year employees were 32% of the workforce at the 2022 peak; today, 3%.
   agency-level numbers as screening signals, not final claims.
 - **Neither IRS number is a record.** The new thing is the multi-year collapse in fresh hires and
   the sustained net losses, not the exit rate alone.
+- **"Not being replaced" is mostly one event plus a freeze, not elevated organic attrition.** Most
+  of the workforce collapse traces to the September 2025 DRP wave; outside that month, separations
+  are steady, so the net losses since are more about reduced hiring than more quitting.
 
 *Reproduce: `python src/extract.py`, then run `attrition_screen.ipynb`. Paths and logic in `src/lib.py`.*

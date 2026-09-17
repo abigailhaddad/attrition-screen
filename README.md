@@ -63,3 +63,13 @@ replacing them — three things true at once, none a record alone:
 Footnote: under-1-year employees were 32% of the 0962 workforce at the 2022 peak; today, 3%.
 
 ![IRS Contact Representative (0962, permanent staff): hires and departures (top) and departures as a share of hires (bottom), by hiring window, 2019-2026](figures/irs_0962_story.png)
+
+**Two separate mechanisms, not one.** The "leaving faster" stat above is about recent hires only.
+Across the *whole* workforce, departures are a different story: September 2025 alone had 4,614
+separations, 97% DRP-flagged (Deferred Resignation Program) — a single buyout event, not a trend.
+Every other month, 2024-2026, runs a steady 145-442 with almost no DRP flags. Checked and
+confirmed: this buyout wave doesn't contaminate the recent-hire quit-rate stat — everyone who left
+in September had an implied hire date before the tracked window, so `implied_hire_cohort()`
+correctly excludes all of them.
+
+![All 0962 separations, any tenure — September 2025 is a single DRP-driven spike, not gradual acceleration.](figures/irs_0962_drp_isolation.png)
