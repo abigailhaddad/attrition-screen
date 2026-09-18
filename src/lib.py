@@ -24,6 +24,7 @@ IRS_0962_ACC_HIST = str(DATA / "irs_0962_accessions_hist.parquet")
 IRS_0962_SEP_HIST = str(DATA / "irs_0962_separations_hist.parquet")
 IRS_0962_EMP_HIST = str(DATA / "irs_0962_employment_hist.parquet")
 IRS_0962_SEP_ALLTENURE = str(DATA / "irs_0962_separations_alltenure.parquet")
+IRS_0962_ACC_LOS = str(DATA / "irs_0962_accessions_los.parquet")
 
 DRP_MONTH = "202509"          # FBI's DRP-driven separations spike
 POST_START, POST_END = "202509", "202607"    # the post-Sep-2025 hiring window this whole repo is anchored on

@@ -66,7 +66,11 @@ an implied hire date before the tracked window.
 
 ### What the data can't say · *notebook §1, §4*
 - **No person IDs.** The implied-hire-month correction infers hire vintage from tenure at
-  departure; it isn't confirmed individual tracking.
+  departure; it isn't confirmed individual tracking. Checked its blind spot directly: a lateral
+  hire's tenure reflects prior federal service, not time in the new role, so a quick quitter among
+  them would be missed. For IRS Contact Reps this is small (1.3% of hires overall, 4.7%
+  post-Sep'25 carry prior credit, vs. ~8% for FBI Special Agent) — worst case, it understates the
+  14.2% quick-quit rate by a few points, not enough to change the finding.
 - **Agency-level rates dilute.** ICE's all-series rate (17.5%) is far below its
   enforcement-officer rate (`icehires`, ~28-33%) since non-enforcement hiring is stickier. Treat
   agency-level numbers as screening signals, not final claims.

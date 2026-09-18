@@ -33,6 +33,10 @@ What gets pulled, and why:
 - **irs_0962_separations_alltenure**: same population, no tenure filter at all -- needed to
   tell whether the *whole* workforce's departures (not just the recent-hire cohort) are
   voluntary quits or something else, like a DRP wave among longer-tenured staff.
+
+- **irs_0962_accessions_los**: tenure-at-hire for 0962 new hires -- quantifies how much of a
+  blind spot the implied-hire-month correction has for this specific population (small, ~1-5%;
+  see notebook §1).
 """
 import re
 from pathlib import Path
@@ -157,6 +161,13 @@ def run():
     # among longer-tenured staff explains the headcount collapse better than organic quitting.
     pull(c, urls(fm, "separations", HIST_START), "personnel_action_effective_date_yyyymm",
          "separation_category, drp_indicator", f"{IRS_0962} AND {PERM}", "irs_0962_separations_alltenure")
+    # Tenure AT HIRE for 0962 new hires -- checks how much of a blind spot
+    # implied_hire_cohort() has: a lateral hire with prior federal credit shows that prior
+    # tenure at separation too, so a quick quitter among them would get an implied hire
+    # date years in the past and silently drop out of the cohort count.
+    pull(c, urls(fm, "accessions", HIST_START), "personnel_action_effective_date_yyyymm",
+         "length_of_service_years", f"{IRS_0962} AND accession_category LIKE 'NEW HIRE%' AND {PERM}",
+         "irs_0962_accessions_los")
 
 
 if __name__ == "__main__":

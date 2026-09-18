@@ -35,6 +35,12 @@ A naive screen — separations of under-1-year hires ÷ their headcount — brea
   enforcement-officer-specific rate (`icehires`, ~28-33%) because non-enforcement hiring is
   stickier. Treat any number here as a screening signal, not a final claim, until it gets the same
   drill-down IRS gets below.
+- **`implied_hire_cohort()`'s own blind spot, checked.** A lateral hire carrying prior federal
+  credit shows that prior tenure at separation too, so a quick quitter among them gets an implied
+  hire date years in the past and silently drops out of the cohort count. Checked for IRS Contact
+  Reps specifically: only 1.3% of hires overall (4.7% post-Sep'25) carry 1+ years of prior credit —
+  small, unlike FBI Special Agent (~8%). Even the unrealistic worst case only pushes the quoted
+  14.2% quick-quit rate up to ~18.9%.
 
 ## Findings
 
