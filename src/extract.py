@@ -94,6 +94,7 @@ def pull(c, u, date_col, cols, where, out_name):
 
 
 def run():
+    (ROOT / "data").mkdir(exist_ok=True)   # data/ is git-ignored, so a fresh clone has no such directory
     c = con()
     fm = {k: file_map(k) for k in ("accessions", "separations", "employment")}
 
